@@ -1,0 +1,30 @@
+.smallProduct {
+    display: grid;
+    grid-template-columns: 30vw;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+img:hover {
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
+}
+
+.btn button {
+    background-color: #ffb5b5;
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    background-color: #ffcbcb;
+    color: #132743;
+}
